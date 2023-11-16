@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: antiquewhite;
+}
+
+.container {
+	flex-direction: column;
+	text-align: center;
+}
+
+@font-face {
+	font-family: keniaFont;
+	src: url(assets/Kenia-Regular.ttf);
+}
+
+h1 {
+	font-family: keniaFont;
+	font-size: 750%;
+}
+
+p {
+	font-size: 300%;
+	font-family: keniaFont;
+}
+
+.image {
+	width: auto;
+	height: 65vh;
+}
